@@ -1,4 +1,4 @@
-module github.com/grepstrength/RealGoVetter
+module RealGoVetter
 
 go 1.23.4
 
