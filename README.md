@@ -21,6 +21,18 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 - Secure API key storage
 - CSV output with detailed analysis results
 
+### Full Bulk IOC Vetting Process
+
+![vettingIOCs](https://github.com/user-attachments/assets/8d0b8e97-0f94-4f08-9224-fe1bb7646771)
+
+### Example Output
+
+![exampleoutput](https://github.com/user-attachments/assets/801d523e-dc94-4ed2-919b-ef66518f244e)
+
+### Saving VirusTotal API Key
+
+![API](https://github.com/user-attachments/assets/93a60e1a-fd6c-4f40-a97f-dd3278087422)
+
 ## Requirements
 
 - x64 Windows 
