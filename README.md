@@ -34,21 +34,19 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 
 ## Build From Source
 ```bash
-go get github.com/grepstrength/RealGoVetter
-cd RealGoVetter
-go build main.go
+go install github.com/grepstrength/RealGoVetter@latest
 ```
 ## Usage
 
-1. Launch RealGoVetter
-2. Enter your VirusTotal API key and click "Save API Key" (Optional)
-3. Click "Select IOC File" to choose your input file
-4. Wait for analysis to complete
-5. Results will be saved as CSV in the same directory
+1. Launch RealGoVetter.
+2. Enter your VirusTotal API key and click "Save API Key". (Optional)
+3. Click "Select IOC File" to choose your input file.
+4. Wait for analysis to complete.
+5. Results will be saved as CSV in the same directory.
 
 ## Configuration
 
-- All API keys is stored in: `C:\Users\<USERNAME>\AppData\Local\RealGoVetter\config.dat`
+- The API key will be stored in: `C:\Users\<USERNAME>\AppData\Local\RealGoVetter\config.dat`
 - Output files are saved in the following format: `results_YYYYMMDDHHMMSS.csv`
 
 ## Limitations
