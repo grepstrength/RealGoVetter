@@ -1,6 +1,7 @@
 # RealGoVetter
 
 Are you analyzing a threat actor that spent as much time registering domains as they did collecting ransoms? 
+
 Did the SOC send you a request to review IPs from seemingly half the internet? 
 
 Look no further!
