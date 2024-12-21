@@ -52,10 +52,8 @@ go install github.com/grepstrength/RealGoVetter@latest
 ## Usage
 
 1. Launch RealGoVetter.
-2. Enter your VirusTotal API key
-  2a. Click "Save API Key" (Optional)
-3. Click "Select IOC File" to choose your input file.
-  3a. The analysis begins as soon as you select the input file.
+2. Enter your VirusTotal API key. You can optionally save it with "Save API Key".
+3. Click "Select IOC File" to choose your input file. The analysis begins as soon as you select the input file.
 4. Wait for the analysis to complete.
 5. Results will be saved as a .CSV file in the same directory.
 
