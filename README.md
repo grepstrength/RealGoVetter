@@ -6,19 +6,19 @@ Did the SOC send you a request to review IPs from seemingly half the internet?
 
 Look no further!
 
-This is a simple portable GUI Windows program designed to leverage the VirusTotal API to evaluate files, domains, IPs, and URLs in *BULK*. You are only limited by your VirusTotal account's API quota. 
+This is a simple portable GUI Windows program designed to leverage the VirusTotal API to evaluate files, domains, IPs, and URLs in *BULK*. You are only limited by your VirusTotal account's API quota. This is sizeable even with a free account. 
 
 ## Features
 
-- Runs as a portable Windows executable 
+- Runs as a portable Windows executable without dependencies 
 - Has a simple GUI interface
-- Accepts CSV or TXT files containing IOCs
+- Accepts .CSV or .TXT files containing IOCs
 - Evaluates multiple types of IOCs:
   - File Hashes
   - Domains
   - IP Addresses
   - URLs
-- Secure API key storage
+- API key storage
 - CSV output with detailed analysis results
 
 ### Full Bulk IOC Vetting Process
@@ -35,8 +35,8 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 
 ## Requirements
 
-- x64 Windows 
-- VirusTotal API key
+- x64 Windows
+- VirusTotal API key (you need at least a free account to access the VirusTotal API)
 
 ## Installation
 
@@ -52,14 +52,16 @@ go install github.com/grepstrength/RealGoVetter@latest
 ## Usage
 
 1. Launch RealGoVetter.
-2. Enter your VirusTotal API key and click "Save API Key". (Optional)
+2. Enter your VirusTotal API key
+  2a. Click "Save API Key" (Optional)
 3. Click "Select IOC File" to choose your input file.
-4. Wait for analysis to complete.
-5. Results will be saved as CSV in the same directory.
+  3a. The analysis begins as soon as you select the input file.
+4. Wait for the analysis to complete.
+5. Results will be saved as a .CSV file in the same directory.
 
 ## Configuration
 
-- The API key will be stored in: `C:\Users\<USERNAME>\AppData\Local\RealGoVetter\config.dat`
+- The API key will be stored in: `C:\Users\<USERNAME>\AppData\Roaming\RealGoVetter\config.dat`
 - Output files are saved in the following format: `results_YYYYMMDDHHMMSS.csv`
 
 ## Limitations
@@ -73,3 +75,9 @@ go install github.com/grepstrength/RealGoVetter@latest
 - This only takes .CSV and .TXT files. 
 - There is currently no way to process defanged network IOCs. 
   - They will return as "Not Found" in the output .CSV file. 
+
+  ## Future Plans & Improvements
+
+- Linux support
+- Greater input file support
+- Support for analyzing defanged network IOCs
