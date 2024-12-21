@@ -1,4 +1,4 @@
-module iocanalyzer
+module RealGoVetter
 
 go 1.23.4
 
