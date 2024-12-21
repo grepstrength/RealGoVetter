@@ -76,7 +76,7 @@ go install github.com/grepstrength/RealGoVetter@latest
 - There is currently no way to process defanged network IOCs. 
   - They will return as "Not Found" in the output .CSV file. 
 
-  ## Future Plans & Improvements
+## Future Plans & Improvements
 
 - Linux support
 - Greater input file support
