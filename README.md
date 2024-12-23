@@ -48,6 +48,7 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 4. Start analyzing IOCs.
 
 ## Build From Source
+*You will need Go v1.23.4 installed.*
 ```bash
 go install github.com/grepstrength/RealGoVetter@latest
 ```
