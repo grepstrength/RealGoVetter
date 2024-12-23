@@ -1,8 +1,10 @@
+![RealGoVetter](https://github.com/user-attachments/assets/bac94e54-1990-41aa-9f60-72f25b98c228)
+
 # RealGoVetter
 
-Are you analyzing a threat actor that spent as much time registering domains as they did collecting ransoms? 
-
-Did the SOC send you a request to review IPs from seemingly half the internet? 
+- Is a questionable IOC feed becoming synonymous with "false positive"? 
+- Are you analyzing a threat actor that spent as much time registering domains as they did collecting ransoms? 
+- Did the SOC send you a request to review IPs from seemingly half the internet? 
 
 Look no further!
 
