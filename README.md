@@ -51,6 +51,12 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 ```bash
 go install github.com/grepstrength/RealGoVetter@latest
 ```
+Or:
+```
+git clone https://github.com/grepstrength/RealGoVetter.git
+cd RealGoVetter
+go build main.go
+```
 ## Usage
 
 1. Launch RealGoVetter.
