@@ -6,7 +6,7 @@ Did the SOC send you a request to review IPs from seemingly half the internet?
 
 Look no further!
 
-This is a simple portable GUI Windows program designed to leverage the VirusTotal API to evaluate files, domains, IPs, and URLs in *BULK*. You are only limited by your VirusTotal account's API quota. This is sizeable even with a free account. 
+This is a simple portable GUI Windows program designed to leverage the VirusTotal API to reputation checks on files, domains, IPs, and URLs in *BULK*. You are only limited by your VirusTotal account's API quota. This is sizeable even with a free account. 
 
 ## Features
 
