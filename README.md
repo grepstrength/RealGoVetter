@@ -60,11 +60,14 @@ go build main.go
 ```
 ## Usage
 
-1. Launch RealGoVetter.
-2. Enter your VirusTotal API key. You can optionally save it with "Save API Key".
+1. Launch RealGoVetter. 
+  - If stopped by Microsoft Defender Smartscreen, right click on the .EXE > Properties > in the General tab check the "Unblock" option.
+  - Relaunch the app.
+2. Enter your VirusTotal API key. 
+  - You can optionally save it with the "Save API Key" option.
 3. Click "Select IOC File" to choose your input file. The analysis begins as soon as you select the input file.
 4. Wait for the analysis to complete.
-5. Results will be saved as a .CSV file in the same directory.
+5. Results will be saved as a .CSV file in the same directory as RealGoVetter.
 
 ## Configuration
 
