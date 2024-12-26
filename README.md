@@ -69,7 +69,7 @@ go build main.go
 ## Configuration
 
 - The API key will be stored in: `C:\Users\<USERNAME>\AppData\Roaming\RealGoVetter\config.dat`
-- Output files are saved in the following format: `results_YYYYMMDDHHMMSS.csv`
+- Output files are saved in the following format in the same directory as the main .EXE: `results_YYYYMMDDHHMMSS.csv`
 
 ## Limitations
 
