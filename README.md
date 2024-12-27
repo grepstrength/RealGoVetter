@@ -63,7 +63,7 @@ go build main.go
 1. Launch RealGoVetter. 
     - If stopped by Microsoft Defender Smartscreen, right click on the .EXE > Properties > in the General tab check the "Unblock" option.
     - Relaunch the app.
-    - Note: See the *clean* VirusTotal sandbox submission for the latest v1.0.1 release: https://www.virustotal.com/gui/file/9704a2465febe66710d2d5f3405afd440ecf26f893c4b96473f193bc872d6200
+    - Note: [Click here for the *clean* VirusTotal sandbox submission for the latest v1.0.1 release](https://www.virustotal.com/gui/file/9704a2465febe66710d2d5f3405afd440ecf26f893c4b96473f193bc872d6200). 
 2. Enter your VirusTotal API key. 
     - You can optionally save it with the "Save API Key" option.
 3. Click "Select IOC File" to choose your input file. The analysis begins as soon as you select the input file.
