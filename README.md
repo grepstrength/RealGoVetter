@@ -1,4 +1,4 @@
-![RealGoVetter](https://github.com/user-attachments/assets/bac94e54-1990-41aa-9f60-72f25b98c228)
+![RealGoVetter](https://github.com/user-attachments/assets/591ed09f-dc57-440f-8690-d9aad1474d20)
 
 # RealGoVetter
 
