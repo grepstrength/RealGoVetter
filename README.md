@@ -42,10 +42,12 @@ This is a simple portable GUI Windows program designed to leverage the VirusTota
 
 ## Installation
 
-1. Download the latest release.
+1. Download the latest [release](https://github.com/grepstrength/RealGoVetter/releases).
 2. Run the executable.
 3. Enter your VirusTotal API key.
 4. Start analyzing IOCs.
+
+*The test file used in the gifs above was added to this repo under the "test_file" directory. They were randomly selected IOCs from multiple recent Palo Alto Unit 42 articles.*
 
 ## Build From Source
 *You will need Go v1.23.4 installed.*
